@@ -27,6 +27,9 @@ cask 'docker' do
                          '/usr/local/bin/hyperkit',
                          '/usr/local/bin/notary',
                          '/usr/local/bin/vpnkit',
+                         '/usr/local/bin/kubectl.docker',
+                         '/usr/local/bin/kubectl',
+                         '/usr/local/bin/docker-credential-desktop'
                        ],
             launchctl: [
                          'com.docker.helper',
